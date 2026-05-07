@@ -110,7 +110,7 @@ Overall Accuracy: 93.3%
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/DS_Padel.git
+git clone https://github.com/yourusername/Layman_Intern.git
 cd DS_Padel
 pip install -r requirements.txt
 ```

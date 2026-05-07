@@ -182,7 +182,7 @@ You can run it directly on [Kaggle](https://www.kaggle.com/) with free GPU acces
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **PadelTracker100 Dataset** — Bada-Nerín et al. ([Zenodo](https://doi.org/10.5281/zenodo.14653706))
 - **DS_Padel Framework** — Novillo et al. ([GitHub](https://github.com/AlvaroNovillo/DS_Padel))

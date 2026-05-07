@@ -27,7 +27,6 @@ This project implements a complete pipeline for analyzing Padel match videos fro
 | 🟠 Backhand | Backhand stroke |
 | 🔴 Smash | Overhead smash/bandeja |
 | 🟡 Serve | Service motion |
-| 🟣 Dropshot | Soft drop shot |
 | ⚪ Other | Unclassified contact |
 
 ---

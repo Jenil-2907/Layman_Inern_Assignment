@@ -35,7 +35,7 @@ This project implements a complete pipeline for analyzing Padel match videos fro
 ## 🏗️ Project Structure
 
 ```
-DS_Padel/
+Layman_Intern/
 │
 ├── main.py                      # Original tracking pipeline (players, ball, court)
 ├── analyze.py                   # Shot analysis entry point (video → annotated video + CSV/JSON)
@@ -65,7 +65,7 @@ DS_Padel/
 │   └── mini_court.py            # 2D court visualization & position mapping
 │
 ├── notebooks/
-│   └── training.ipynb           # Kaggle notebook: data loading, training, evaluation
+│   └── layman-intern.ipynb      # Kaggle notebook: data loading, training, evaluation
 │
 ├── output/                      # Generated videos, CSVs, and JSONs
 └── tracker_stubs/               # Pre-computed detection caches (.pkl)
@@ -111,7 +111,7 @@ Overall Accuracy: 93.3%
 
 ```bash
 git clone https://github.com/yourusername/Layman_Intern.git
-cd DS_Padel
+cd Layman_Intern
 pip install -r requirements.txt
 ```
 
@@ -170,7 +170,7 @@ The analyzer produces structured output in both CSV and JSON:
 
 ## 📓 Training Notebook
 
-The full training pipeline is available in [`notebooks/training.ipynb`](notebooks/training.ipynb):
+The full training pipeline is available in [`notebooks/layman-intern.ipynb`](notebooks/layman-intern.ipynb):
 
 1. Downloads the PadelTracker100 dataset from Zenodo
 2. Loads and merges pose annotations with shot labels
@@ -182,10 +182,10 @@ You can run it directly on [Kaggle](https://www.kaggle.com/) with free GPU acces
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - **PadelTracker100 Dataset** — Bada-Nerín et al. ([Zenodo](https://doi.org/10.5281/zenodo.14653706))
-- **DS_Padel Framework** — Novillo et al. ([GitHub](https://github.com/AlvaroNovillo/DS_Padel))
+- **Layman_Intern Framework** — Novillo et al. ([GitHub](https://github.com/AlvaroNovillo/Layman_Intern))
 - **YOLOv8** — [Ultralytics](https://github.com/ultralytics/ultralytics)
 - **TrackNet** — Ball tracking neural network architecture
 
